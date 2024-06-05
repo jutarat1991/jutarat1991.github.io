@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script>
+        var num1 = 5
+        let num2 = 7
+        num3 = 20
+        let fname = 'Jutarat'
+        let lname = 'Sittiparpanon'
+        let email = "test@gmail.com"
+        const PI = 3.14
+    </script>
+</head>
+
+<body>
+    <!-- <div style="color: red">
+        <script>
+            // document.writeln(num1)
+            // document.writeln(num2)
+            // document.writeln(num3)
+
+            document.write(num1 + '<br>')
+            document.write(num2 + '<br>')
+            document.write(num3 + '<br>')
+        </script>
+    </div> -->
+
+    <!-- <div>
+        <p style="color: green"><script>document.write(fname)</script></p>
+        <p style="color: blue"><script>document.write(lname)</script></p>
+    </div> -->
+
+    <div>
+        <p id="fname" style="color: green"></p>
+        <p id="email" style="color: blue"></p>
+    </div>
+
+    <script>
+        document.getElementById('fname').innerHTML = fname;
+        document.getElementById('email').innerHTML = email;
+    </script>
+
+</body>
+</html>
